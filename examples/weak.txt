@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://shop.example/
+
+HTTP/2 200
+server: Apache/2.4.41 (Ubuntu)
+x-powered-by: PHP/7.4.3
+content-type: text/html; charset=UTF-8
+x-frame-options: ALLOW-FROM https://partner.example
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=86400
+content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https:
+set-cookie: PHPSESSID=3f9a1c0d7e; path=/
